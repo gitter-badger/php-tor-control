@@ -1,0 +1,41 @@
+{
+  "name": "bpteam/php-tor-control",
+  "description": "tiny and slow ;) php classes for work with tor",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Evgeny Pynykh",
+      "email": "bpteam22@gmail.com",
+      "homepage": "http://bpteam.net",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "require": {
+    "php": ">=5.6",
+    "bpteam/file": "master",
+    "pwfisher/command-line-php": "master",
+    "bpteam/php-shell": "master"
+  },
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/bpteam/file"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bpteam/CommandLine.php"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bpteam/php-shell"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "bpteam\\TorControl\\": ""
+    }
+  }
+}
