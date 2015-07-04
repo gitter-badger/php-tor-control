@@ -15,14 +15,14 @@
   },
   "require": {
     "php": ">=5.6",
-    "bpteam/file": "master",
+    "bpteam/php-file": "master",
     "pwfisher/command-line-php": "master",
     "bpteam/php-shell": "master"
   },
   "repositories":[
     {
       "type": "vcs",
-      "url": "https://github.com/bpteam/file"
+      "url": "https://github.com/bpteam/php-file"
     },
     {
       "type": "vcs",
